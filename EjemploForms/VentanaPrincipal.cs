@@ -24,13 +24,13 @@ namespace EjemploForms
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void botonVentana01(object sender, EventArgs e)
         {
             Ventana01 ventana = new Ventana01();
             ventana.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void botonVentana02(object sender, EventArgs e)
         {
             Ventana02 ventana = new Ventana02();
             ventana.Show();
